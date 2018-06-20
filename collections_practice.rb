@@ -52,7 +52,6 @@ def count_elements(array)
 end    
 
 def merge_data(keys, values)
-=begin
   output = []
   keys.each do |person|
     name = person[:first_name]
@@ -65,11 +64,9 @@ def merge_data(keys, values)
     end
   end
   output
-=end  
 end
 
 def find_cool(array)
-=begin
   output = []
   array.each do |person|
     if person[:temperature] == "cool"
@@ -77,7 +74,6 @@ def find_cool(array)
     end  
   end
   output
-=end  
 end
 
 def organize_schools(schools)
